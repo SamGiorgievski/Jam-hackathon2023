@@ -4,14 +4,11 @@ import './Chat.scss';
 export default function Chat() {
   return (
     <div className="chat">
-      <h1>
-      Connect
-        </h1>
-        
-
         <div className="chatbox">
-          <h2> Meet your friend, Rohan:</h2>
+          <h2 className="chat_title"> Meet your friend, Rohan:</h2>
           <ul className="messages">
+            <li> tags: Grief</li>
+            <br/>
             <li> Rohan: Hi, I need help!</li>
             <li> Sam: That's nice.</li>
           </ul>

@@ -12,13 +12,10 @@ function App() {
         </div>
         <ul className="features">
           <li>
-            <Link to="/listen">Listen</Link>
+            <Link to="/connect">Connect</Link>
           </li>
           <li>
-            <Link to="/share">Share</Link>
-          </li>
-          <li>
-            <Link to="/chat">Connect</Link>
+            <Link to="/chat">Chat</Link>
           </li>
         </ul>
       </div>
