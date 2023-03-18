@@ -1,0 +1,51 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+
+.features {
+  list-style: none;
+  margin: 0;
+  display:flex;
+  flex-direction:row;
+  gap: 2rem;
+  padding: 0 1rem;
+  color: white;
+}
+
+.navbar a {
+  color:white;
+  text-decoration: none;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.navbar li:hover {
+  background-color: #777;
+}
+
+.navbar li:active {
+  background-color: #555;
+}
+
+.title {
+  font-size: 46px;
+  padding: 5px;
+}
