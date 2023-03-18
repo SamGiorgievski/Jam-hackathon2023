@@ -1,6 +1,7 @@
 import './App.scss';
 import { Link, Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Chat from './Chat';
 
 function App() {
   return (
@@ -17,12 +18,13 @@ function App() {
             <Link to="/share">Share</Link>
           </li>
           <li>
-            <Link to="/connect">Connect</Link>
+            <Link to="/chat">Connect</Link>
           </li>
         </ul>
       </div>
       <Routes>
         <Route path ="/" index element = {<Home/>}/>
+        <Route path ="/chat" index element = {<Chat/>}/>
       </Routes>
     </div>
   );
