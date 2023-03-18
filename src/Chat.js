@@ -10,12 +10,13 @@ export default function Chat() {
         
 
         <div className="chatbox">
-          <ul id="messages">
-            <li> Hi, I need help!</li>
-            <li> That's nice.</li>
+          <h2> Meet your friend, Rohan:</h2>
+          <ul className="messages">
+            <li> Rohan: Hi, I need help!</li>
+            <li> Sam: That's nice.</li>
           </ul>
-          <form id="form" action="">
-            <input id="input" autocomplete="off" /><button>Send</button>
+          <form className="form" action="">
+            <input className="input" autocomplete="off" /><button>Send</button>
           </form>
 
         </div>

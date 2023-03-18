@@ -8,29 +8,32 @@ body {
   background-color: antiquewhite;
 }
 
+// green: #8AC37B;
+
+
 .navbar {
-  background-color: #8AC37B;
-  color: black;
+  background-color: white;
   display:flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
+  border-bottom: 2px solid grey;
 }
 
 
 .features {
   list-style: none;
+  color: #8AC37B;
   margin: 0;
   display:flex;
   flex-direction:row;
   gap: 2rem;
   padding: 0 1rem;
-  color: black;
 }
 
 .navbar a {
-  color:black;
+  color: #8AC37B;
   text-decoration: none;
   height: 100%;
   display:flex;
@@ -39,7 +42,7 @@ body {
 }
 
 .navbar li:hover {
-  background-color: #6D9C61;
+  background-color: #F1F1F1;
 }
 
 .navbar li:active {
