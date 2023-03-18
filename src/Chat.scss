@@ -6,15 +6,26 @@
 }
 
 .chatbox {
-  border-style: solid;
-  border-color: black;
-  border-width: 1px;
-  height: 400px;
+  height: 500px;
   width: 600px;
+  border-radius: 25px;
+
 }
 
 .messages {
   background-color: white;
-  list-style-type: none
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  list-style-type: none;
+  margin: 10px 60px 10px 60px;
+  padding: 10px;
+  text-align: left;
+  height: 320px;
   
+  
+}
+
+.input {
+  margin-top: 10px;
+  width: 72%;
+  box-sizing: border-box;
 }

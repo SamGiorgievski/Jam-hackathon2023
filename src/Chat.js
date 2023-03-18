@@ -10,10 +10,10 @@ export default function Chat() {
         
 
         <div className="chatbox">
-          <h2> Chatbox 1</h2>
+          <h2> Meet your friend, Rohan:</h2>
           <ul className="messages">
-            <li> Hi, I need help!</li>
-            <li> That's nice.</li>
+            <li> Rohan: Hi, I need help!</li>
+            <li> Sam: That's nice.</li>
           </ul>
           <form className="form" action="">
             <input className="input" autocomplete="off" /><button>Send</button>
