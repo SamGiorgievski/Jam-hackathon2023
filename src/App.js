@@ -7,14 +7,17 @@ function App() {
     <div className="App">
       <div className="navbar">
       <div className="title"> 
-          <Link to="/"> Broken 99</Link>
+          <Link to="/"> The In Between</Link>
         </div>
         <ul className="features">
           <li>
-            <Link to="/free">Free Support</Link>
+            <Link to="/listen">Listen</Link>
           </li>
           <li>
-            <Link to="/professional">Professional Support</Link>
+            <Link to="/share">Share</Link>
+          </li>
+          <li>
+            <Link to="/connect">Connect</Link>
           </li>
         </ul>
       </div>
