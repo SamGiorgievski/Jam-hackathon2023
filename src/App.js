@@ -11,10 +11,10 @@ function App() {
         </div>
         <ul className="features">
           <li>
-            <Link to="/generate">Free Support</Link>
+            <Link to="/free">Free Support</Link>
           </li>
           <li>
-            <Link to="/edit">Professional Support</Link>
+            <Link to="/professional">Professional Support</Link>
           </li>
         </ul>
       </div>
