@@ -19,6 +19,7 @@ const NewMessage = ({socket}) => {
           setValue(e.currentTarget.value);
         }}
       />
+      <button type='submit'>Send</button>
     </form>
   );
 };
