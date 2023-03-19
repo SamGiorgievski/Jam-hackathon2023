@@ -9,4 +9,35 @@
   flex-direction: column;
   text-align: center;
   margin-top: 20px;
+  align-items: center;
+
+}
+
+.form_title {
+  text-align: center;
+}
+
+.formdiv {
+  background-color: white;
+  width: 30%;
+  padding: 20px;
+  text-align: left;
+  justify-content: center;
+
+.question {
+  margin: 10px;
+}
+
+.dropdowns {
+  width: 100%;
+}
+
+.submit {
+  text-align: center;
+}
+.button_flex{
+  display:flex;
+  justify-content: center;
+}
+
 }

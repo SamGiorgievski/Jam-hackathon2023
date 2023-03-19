@@ -2,6 +2,7 @@ import './App.scss';
 import { Link, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Chat from './Chat';
+import Connect from './Connect';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
       <Routes>
         <Route path ="/" index element = {<Home/>}/>
+        <Route path ="/connect" index element = {<Connect/>}/>
         <Route path ="/chat" index element = {<Chat/>}/>
       </Routes>
     </div>
