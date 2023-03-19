@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from "react";
 import { io } from "socket.io-client";
 import "./Chat.scss";
-import MessageInput from "./components/MessageInput";
-import Messages from "./components/Messages";
+import MessageInput from "./components/javascripts/MessageInput";
+import Messages from "./components/javascripts/Messages";
 
 export default function Chat() {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const newSocket = io(`http://${window.location.hostname}:3000`);
+    const newSocket = io(`http://${window.location.hostname}:8000`);
     setSocket(newSocket);
     return () => newSocket.close();
   }, [setSocket]);
@@ -29,7 +29,7 @@ export default function Chat() {
         </div> */}
 
       {socket ? (
-        <div>
+        <div className="chat-container">
           <Messages socket={socket} />
           <MessageInput socket={socket} />
         </div>
