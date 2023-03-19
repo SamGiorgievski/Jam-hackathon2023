@@ -9,8 +9,8 @@ const users = new Map();
 // };
 
 const allUsers = {
-  0: "Sam",
-  1: "Rohan"
+  0: "Juma",
+  1: "Danielle"
 }
 
 let currentUser = 0;
