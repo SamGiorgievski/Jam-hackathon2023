@@ -3,9 +3,27 @@ const uuidv4 = require('uuid').v4;
 const messages = new Set();
 const users = new Map();
 
-const defaultUser = {
-  id: 'anon',
-  name: 'Anonymous',
+// const defaultUser = {
+//   id: 'anon',
+//   name: 'Anonymous',
+// };
+
+const allUsers = {
+  0: "Sam",
+  1: "Rohan"
+}
+
+let currentUser = 0;
+
+const showUser = () => {
+
+  if(currentUser === 0) {
+    currentUser = 1;
+  } else {
+    currentUser = 0;
+  }
+
+  return currentUser;
 };
 
 const messageExpirationTimeMS = 5*60 * 1000;
@@ -34,7 +52,7 @@ class Connection {
   handleMessage(value) {
     const message = {
       id: uuidv4(),
-      user: users.get(this.socket) || defaultUser,
+      user: users.get(this.socket) || allUsers[showUser()],
       value,
       time: Date.now()
     };
